@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Search engine</title>
+    <link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <img src="wikipedia.png" alt="wikipedia-image" class="logo">
+            <form class="search-form" id="js-search-form">
+                <input type="search" placeholder="Type a keyword and press enter to search" class="search-input " id="js-search-input" autofocus>
+            </form>
+        </header>
+        <div class="loading-indicator">
+            <div class="sk-chase js-spinner hidden">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+        <section  class="search-results" id="js-search-results">
+        </section>
+    </main>
+    <script src="wiki.js"></script>
+</body>
+</html>
