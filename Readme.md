@@ -13,7 +13,6 @@ View the results of the search in a Google-like format.
 Click on a result to view the full article on Wikipedia.
 #Requirements
 A web browser.
-An internet connection.
 #Installation
 Clone the git repo.
 Open the project in your code editor.
